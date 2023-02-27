@@ -5,7 +5,7 @@ from checkingInput import correct_int
 # 123 -> 6 (1 + 2 + 3)
 # 100 -> 1 (1 + 0 + 0)
 
-print("Введите любое целое число: ")
+print("Введите любое целое число: ", end='')
 number = correct_int()
 result = 0
 while number >= 1:
